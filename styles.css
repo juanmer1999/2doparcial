@@ -1,0 +1,84 @@
+
+        /* Estilo para el encabezado y el fondo de los formularios  y los inputs*/
+      body {
+            background-image: url("https://gcdnb.pbrd.co/images/GrK0x9pe9bzs.jpg?o=1");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif; /* Fuente */
+              text-align: center;
+        }
+
+        
+        h1{
+            background-color: rgba(97, 92, 242, 0.8); /* Color principal */
+            color: #fff; /* Texto en blanco */
+            padding: 40px; /* Espaciado interno */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        form {
+            background-color: rgba(97, 92, 242, 0.8); /* Color principal */
+            color: #fff; /* Texto en blanco */
+            padding: 20px; /* Espaciado interno */
+            border-radius: 10px; /* Bordes redondeados */
+            text-align: left;
+            
+        }
+
+        label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+       
+        input[type="submit"] {
+            background-color: #5955D9; 
+            color: #fff; /* fff  blanco */
+            padding: 10px 20px; 
+            border: 2px solid #6360BF; /* Borde con color principal */
+            border-radius: 5px; 
+            cursor: pointer;/* manito la pasar*/
+            
+        }
+
+     
+        form input[type="text"]{
+            width: 70%; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+    
+
+        }
+        form input[type="number"]{
+            width: 70%; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+           
+
+        }
+        form input[type="checkbox"] {
+            width: 10%; 
+         
+        }
+
+
+        img.logo {
+            float: left;
+            margin-right: 20px; 
+            margin-top: -30px;
+        }
+
+        h2 {
+   
+            color: #fff; /* fff  blanco */
+            padding: 5px; 
+            border-radius: 5px; 
+            background-color: rgba(97, 92, 242, 0.8); 
+            
+    
+           
+        }
+
+
